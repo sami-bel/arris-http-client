@@ -1,0 +1,20 @@
+{
+    "name": "arris/httpClient-bundle",
+    "type": "symfony-bundle",
+    "description": "Call Zencoder API with Symfony2 in SIVIDEO context",
+    "keywords": ["symfony2", "api zencoder"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "samsoum",
+            "email": "samsoum.infor@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "psr/http-message": "^1.0"
+    }
+}
