@@ -1,3 +1,8 @@
 services:
     Arris\HttpClientBundle\Services\Hello:
         class: Arris\HttpClientBundle\Services\Hello
+        arguments:
+            - '@client_http'
+
+    client_http:
+        alias: '%client_http%'
