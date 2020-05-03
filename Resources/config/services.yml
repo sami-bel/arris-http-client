@@ -1,0 +1,3 @@
+services:
+    Arris\HttpClientBundle\Services\Hello:
+        class: Arris\HttpClientBundle\Services\Hello
