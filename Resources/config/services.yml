@@ -1,8 +1,4 @@
 services:
-    Arris\HttpClientBundle\Services\Hello:
-        class: Arris\HttpClientBundle\Services\Hello
-        arguments:
-            - '@client_http'
+   Arris\HttpClientBundle\Services\ClientFactoryInterface:
+      factory: ['%client_factory%', 'create']
 
-    client_http:
-        alias: '%client_http%'

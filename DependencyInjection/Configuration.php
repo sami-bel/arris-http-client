@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('arris_http_client');
         $rootNode ->children()
-            ->scalarNode('client_http')->cannotBeEmpty()
+            ->scalarNode('client_factory')->cannotBeEmpty()
             ->end()
         ->end();
 
